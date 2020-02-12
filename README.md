@@ -11,6 +11,9 @@
 - docker-compose run python ./manage.py createsuperuser
   - dev:dev
 
+## Pythonコンテナにログイン
+- docker-compose exec python bash
+
 ## URL
 - http://localhost:8000/admin
 
